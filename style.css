@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: rgb(238, 36, 36);
+}
+
+button:hover {
+    background-color: rgb(221, 92, 92);
+}
+ #all a{
+    text-decoration: none;
+
+}
+
+.view a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(254, 73, 73);
+}
+
+.fea a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.fea a:hover{
+    color: red;
+}
+
